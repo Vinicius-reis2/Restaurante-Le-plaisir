@@ -14,5 +14,37 @@ const data = [
         category: "Aperitivos",
         description: "O pão é molhado no ovo, coberto com queijo e recheado com presunto e queijo. Depois é só tostar na frigideira.",
         price: 15.00
+    },
+    {
+        id: 2,
+        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525883979shutterstock-187407584.jpg",
+        name: "Croque-Monsieur",
+        category: "Aperitivos",
+        description: "O pão é molhado no ovo, coberto com queijo e recheado com presunto e queijo. Depois é só tostar na frigideira.",
+        price: 15.00
+    },
+    {
+        id: 2,
+        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525883979shutterstock-187407584.jpg",
+        name: "Croque-Monsieur",
+        category: "Aperitivos",
+        description: "O pão é molhado no ovo, coberto com queijo e recheado com presunto e queijo. Depois é só tostar na frigideira.",
+        price: 15.00
+    },
+    {
+        id: 2,
+        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525883979shutterstock-187407584.jpg",
+        name: "Croque-Monsieur",
+        category: "Aperitivos",
+        description: "O pão é molhado no ovo, coberto com queijo e recheado com presunto e queijo. Depois é só tostar na frigideira.",
+        price: 15.00
+    },
+    {
+        id: 2,
+        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525883979shutterstock-187407584.jpg",
+        name: "Croque-Monsieur",
+        category: "Aperitivos",
+        description: "O pão é molhado no ovo, coberto com queijo e recheado com presunto e queijo. Depois é só tostar na frigideira.",
+        price: 15.00
     }
 ]
