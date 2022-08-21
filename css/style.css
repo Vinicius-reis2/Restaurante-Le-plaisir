@@ -64,11 +64,22 @@ header p{
     overflow-x: scroll;
 }
 
-.categories__ul li{
+.categories__ul button{
+    color: black;
     border: 1px solid #f5f5f5;
     padding: 2vw;
     border-radius: 12px;
+    transition: .5s;
     background-color: #f5f5f5;
+}
+
+.categories__ul button:hover{
+    color: white;
+    border: 1px solid #f5f5f5;
+    padding: 2vw;
+    border-radius: 12px;
+    transition: .5s;
+    background-color: #F55C52;
 }
 
 .search{
