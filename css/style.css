@@ -102,7 +102,7 @@ header p{
 }
 
 .container__products ul{
-    max-height: 55vh;
+    max-height: 50vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-padding: 28px;
