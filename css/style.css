@@ -11,6 +11,11 @@
     list-style: none;
 }
 
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 header{
     width: 100vw;
     background-color: #F55C52;
