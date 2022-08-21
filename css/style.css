@@ -105,7 +105,7 @@ header p{
     max-height: 55vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    scroll-padding: 24px;
+    scroll-padding: 28px;
 }
 
 .product__card{
