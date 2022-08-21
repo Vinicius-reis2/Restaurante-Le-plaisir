@@ -41,7 +41,7 @@ const data = [
     },
     {
         id: 6,
-        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525883982shutterstock-360748985.jpg",
+        image: "https://www.guiadasemana.com.br/contentFiles/image/2018/05/FEA/galeria/57102_w840h525_1525884029shutterstock-665315497.jpg",
         name: "Macarons",
         category: "Doces",
         description: "É uma receita preparada com creme de leite, açúcar, ovos e baunilha e finalizada com uma crosta de açúcar queimada.",
