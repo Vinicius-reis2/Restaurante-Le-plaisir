@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+}
+
+header{
+    width: 100vw;
+    background-color: #F55C52;
+    padding: 0.8rem 0;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 14vw;
+    color: white;
+}
+
+header p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.title img{
+    width: 10vw;
+    margin-right: 1rem;
+}
+
+.title{
+    width: 90vw;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories{
+    background-color: #FFC9C9;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(87 86 86 / 64%);
+}
+
+.categories__ul{
+    display: flex;
+    gap: 3vw;
+    margin: 0 auto;
+    max-width: 90vw;
+    overflow-x: scroll;
+}
+
+.categories__ul li{
+    border: 1px solid #f5f5f5;
+    padding: 2vw;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+}
+
+.search{
+    width: 85vw;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    width: 90%;
+    border: 1px solid #7c7c7c;
+    border-radius: 12px;
+    padding: 0.3rem 1rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.search img {
+    width: 6vw;
+}
+
+.search button{
+    width: 10%;
+    background: none;
+    margin-top: 6px;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    max-height: 300px;
+    margin-top: 5vw;
+}
+
+.container__products ul{
+    max-height: 55vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 24px;
+}
+
+.product__card{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    border: 1px solid #FCB173;
+    border-radius: 8px;
+    margin-top: 12px;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.product__card img{
+    width: 100%;
+}
+
+.product__card h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 5vw;
+    margin-top: 1vw;
+}
+
+.product__card h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 3vw;
+    color: rgb(61, 61, 61);
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.product__card p{
+    font-size: 4vw;
+    margin-top: 2vw;
+    padding: 1vw;
+    max-width: 14vw;
+}
+
+.product__card button{
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FCB173;
+    border-radius: 8px;
+    padding: 2vw 5vw;
+    margin-bottom: 1.3rem;
+    margin-top: .8vw;
+    color: white;
+}
