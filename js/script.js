@@ -35,7 +35,6 @@ function createItem(card){
 createCard(data)
 
 divButtons.addEventListener("click", function(e){
-    console.log("oi")
     if(e.target.tagName == "BUTTON"){
         tagUl.innerHTML = ""
         if(e.target.innerText == "Todos"){
