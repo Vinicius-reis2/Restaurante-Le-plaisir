@@ -9,10 +9,10 @@
 	font: inherit;
 	vertical-align: baseline;
     list-style: none;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -71,6 +71,7 @@ header p{
     border-radius: 12px;
     transition: .5s;
     background-color: #f5f5f5;
+    cursor: pointer;
 }
 
 .categories__ul button:hover{
@@ -80,6 +81,7 @@ header p{
     border-radius: 12px;
     transition: .5s;
     background-color: #F55C52;
+    cursor: pointer;
 }
 
 .search{
@@ -111,13 +113,17 @@ header p{
 }
 
 .container{
-    width: 90vw;
+    display: flex;
+    flex-direction: column; 
+    width: 80vw;
     margin: 0 auto;
     max-height: 300px;
     margin-top: 5vw;
 }
 
 .container__products ul{
+    background-color: #FFC9C9;
+    border-radius: 8px;
     max-height: 50vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -130,7 +136,8 @@ header p{
     max-width: 70%;
     margin: 0 auto;
     margin-bottom: 5vw;
-    border: 1px solid #FCB173;
+    background-color: #FCB173;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     margin-top: 12px;
     overflow: hidden;
@@ -145,6 +152,7 @@ header p{
     font-family: 'Inter', sans-serif;
     font-size: 5vw;
     margin-top: 1vw;
+    color: #f7eeee;
 }
 
 .product__card h5{
@@ -153,6 +161,7 @@ header p{
     color: rgb(61, 61, 61);
     margin-left: 2vw;
     margin-top: 2vw;
+    color: #f7eeee;
 }
 
 .product__card p{
@@ -160,15 +169,71 @@ header p{
     margin-top: 2vw;
     padding: 1vw;
     max-width: 14vw;
+    color: #f7eeee;
 }
 
 .product__card button{
     align-items: center;
     margin: 0 auto;
-    background-color: #FCB173;
+    background-color: #F55C52;
     border-radius: 8px;
     padding: 2vw 5vw;
     margin-bottom: 1.3rem;
     margin-top: .8vw;
+    color: #f7eeee;
+}
+
+.carrinho{
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.buyCar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buyCar h2{
+    text-align: center;
+    border: 1px solid #F55C52;
+    background-color: #F55C52;
+    border-radius: 8px 8px 0px 0px;
+    padding: 2vw 1vw;
+    font-size: 5vw;
     color: white;
+}
+
+.buyCar__list{
+    width: 100%;
+    max-height: 30vh;
+    background-color: #f7eeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.buyCar__list__item{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    width: 90%;
+    margin: .8rem auto;
+}
+
+.buyCar__list__item img{
+    width: 30vw;
+    border-radius: 3px;
+}
+
+.buyCar__list__item h3{
+
+}
+
+.buyCar__list__item p{
+    font-size: 3vw;
+}
+
+.buyCar__list__item button{
+    font-size: 3vw;
 }
